@@ -29,4 +29,13 @@ public class SolutionTest {
         int output = 0;
         Assert.assertEquals(output, new Solution().minFlips(a, b, c));
     }
+
+    @Test
+    public void minFlipsTest4() {
+        int a = 8;
+        int b = 3;
+        int c = 5;
+        int output = 3;
+        Assert.assertEquals(output, new Solution().minFlips(a, b, c));
+    }
 }
